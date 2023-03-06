@@ -14,8 +14,29 @@
     justify-content: center;
     align-items: center;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+
+    /* Optional Code for background image */
+    border-radius: 20px;
+    width: 310px;
+    background-image: url(broken-heart.webp);
+    background-position: center;
+    background-size: cover;
+}
 #heart-animation h1{
     font-size: 40px;
+
+    /* This is real color */
+    /* color: black; */
+
+    /* This is optional for glowing text */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red;
 }
 .heart{
     height: 120px;
@@ -25,7 +46,17 @@
 .heart i{
     font-size: 100px;
     animation: loveSign 1s infinite;
-    color: #ff000087;
+
+    /* Original Color */
+    /* color: #ff00009b; */
+
+    /* Optiona Color */
+    color: #ffffff70;
+}
+
+/* Optional Code for Video */
+iframe{
+    margin-bottom: 5px;
 }
 
 @keyframes loveSign {
@@ -34,15 +65,30 @@
     }
     20%{
         font-size: 120px;
-        color: #ff0000;
+        
+        /* Original Color */
+        /* color: red; */
+
+        /* Optional Color */
+        color: #fff;
     }
     40%{
         font-size: 100px;
-        color: #ff0000;
+        
+        /* Original Color */
+        /* color: red; */
+
+        /* Optional Color */
+        color: #fff;
     }
     60%{
         font-size: 120px;
-        color: #ff0000;
+
+        /* Original Color */
+        /* color: red; */
+
+        /* Optional Color */
+        color: #fff;
     }
     80%{
         font-size: 100px;
