@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 700;
+}
+
+#heart-animation{
+    background-color: pink;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#heart-animation h1{
+    font-size: 40px;
+}
+.heart{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+.heart i{
+    font-size: 100px;
+    animation: loveSign 1s infinite;
+    color: #ff000087;
+}
+
+@keyframes loveSign {
+    0%{
+        font-size: 100px;
+    }
+    20%{
+        font-size: 120px;
+        color: #ff0000;
+    }
+    40%{
+        font-size: 100px;
+        color: #ff0000;
+    }
+    60%{
+        font-size: 120px;
+        color: #ff0000;
+    }
+    80%{
+        font-size: 100px;
+    }
+    100%{
+        font-size: 100px;
+    }
+}
